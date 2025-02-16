@@ -49,6 +49,7 @@ nav:
     - installation/creating-agent.md
     - installation/running-agent.md
     - installation/configuration.md
+    - installation/discord-setup.md
     - installation/best-practices.md
   - Community:
     - community/next-steps.md
