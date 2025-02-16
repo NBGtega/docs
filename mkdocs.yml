@@ -1,5 +1,6 @@
 site_name: oracle framework docs
 site_description: Documentation for the oracle framework
+site_url: https://docs.oracleframework.ai
 theme:
   name: material
   palette:
