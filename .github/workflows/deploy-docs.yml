@@ -32,8 +32,10 @@ jobs:
 
       - run: pip install mkdocs-material 
 
-      # Ensure CNAME is copied to the build directory
-      - name: Copy CNAME File
-        run: cp CNAME docs/CNAME
+      - run: mkdocs build  # Build site before deployment
+
+      # Copy CNAME manually
+      - name: Copy CNAME File to site/
+        run: cp docs/CNAME site/CNAME
 
       - run: mkdocs gh-deploy --force

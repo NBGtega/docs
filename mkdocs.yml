@@ -23,6 +23,8 @@ theme:
     - content.code.copy
 extra_css:
   - stylesheets/extra.css
+extra_files:
+  - docs/CNAME
 
 markdown_extensions:
   - pymdownx.highlight:
